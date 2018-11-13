@@ -7,6 +7,6 @@ const host = 'https://k3chj3y2.qcloud.la'
 const config = {
   host,
   loginUrl: `${host}/weapp/login`,
-//   userUrl: `${host}/weapp/user`
+  userUrl: `${host}/weapp/user`
 }
 export default config

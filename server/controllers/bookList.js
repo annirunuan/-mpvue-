@@ -10,7 +10,7 @@ module.exports = async (ctx) => {
                   .orderBy('books.id', 'desc')
     let books
     if(openid){
-        // 根据opid过滤
+        // 根据openid过滤
         books = await mysqlSelect.where('books.openid', openid)
     }else{
         // 全部图书 分页
